@@ -1,0 +1,120 @@
+
+.btn-header, .btn-outline, .btn-accent,
+.btn-white, .btn-white-reverse {
+    
+    border-radius: var(--border-radius);
+    
+    font-family: "Helvetica", sans-serif;
+    
+    font-weight: lighter;
+}
+
+.btn-outline, .btn-accent, .btn-white,
+.btn-white-reverse{
+    
+    border-width: var(--border-width);
+}
+
+
+
+
+.btn-header {
+    
+    color: var(--white-color);
+}
+
+.btn-header:hover {
+    
+    
+    color: var(--white-color);
+    background-color: var(--white-transparent-color);
+}
+
+
+.btn-outline, .btn-white {
+    
+    color: var(--white-color);
+    
+    border-color: var(--white-color);
+}
+
+.btn-outline:hover{
+    
+    color: var(--white-color);
+    
+    border-color: var(--white-color);
+    
+    background-color: var(--white-transparent-color);
+}
+
+
+.btn-accent {
+    
+    color: var(--accent-color);
+    
+    border-color: var(--accent-color);
+}
+
+.btn-accent:hover{
+    
+    color: var(--white-color);
+    
+    background-color: var(--accent-color);
+}
+
+
+.btn-white-reverse {
+ 
+    color: var(--black-color);
+}
+
+.btn-white-reverse:hover {
+    
+    color: var(--white-color);
+
+    border-color: var(--white-color);
+}
+
+
+
+.btn-white:hover, .btn-white-reverse {
+    
+    background-color: var(--white-color);
+}
+
+
+.btn-accordion-accent{
+    
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.btn-accordion-accent:focus,
+.btn-accordion-accent:active{
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+
+
+.input-test {
+    
+    box-sizing: border-box;
+    box-shadow: none;
+    
+    padding: 5px;
+    
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    
+    border-color: var(--white-color);
+    border-radius: var(--border-radius);
+    border-width: var(--border-width-md);
+    
+    outline: none;
+}
+
+.input-test::placeholder {
+    color: var(--white-color);
+    opacity: 0.7;
+}
