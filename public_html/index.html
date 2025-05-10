@@ -1,4 +1,4 @@
-
+<!DOCTYPE HTML>
 <html>
     <head>
         <title>TODO supply a title</title>
@@ -59,8 +59,9 @@
                  flex-grow-1
                  justify-content-end">
                 
-                <button class="btn btn-outline btn-lg" type="button">Вход</button>
-            
+                <a href="SignIn.html"
+                   class="btn btn-outline btn-lg"
+                   role="button">Вход</a>
             </div>
             
         </div>
@@ -396,19 +397,28 @@
                         <img src="Images/Frog.gif" alt="Frog">
                     </div>
                
-                    <form class="d-flex flex-column w-50
+                    
+                    <form method="post" action="PHP/logic.php" 
+                        class="d-flex flex-column w-50
                           p-3
                           align-items-center ">
 
-                        <input class="p-2 m-2 input-test" placeholder="Ваше Имя" type="text">
-                        <input class="p-2 m-2 input-test" placeholder="E-mail" type="email">
+                        <input class="p-2 m-2 input-accent"
+                               name="UserName" placeholder="Ваше Имя" type="text">
+                        
+                        <input class="p-2 m-2 input-accent"
+                               name="Email" placeholder="E-mail" type="email">
 
-                        <input class="p-2 m-2 input-test" placeholder="Пароль" type="password">
-                        <input class="p-2 m-2 input-test" placeholder="Повторите пароль" type="password">
+                        <input class="p-2 m-2 input-accent"
+                               name="password1" placeholder="Пароль" type="password">
+                        
+                        <input class="p-2 m-2 input-accent"
+                               name ="password2" placeholder="Повторите пароль" type="password">
 
                         <button class="p-2 m-2
                                 flex-grow-1
-                                btn btn-white-reverse btn-lg" type="Submit">
+                                btn btn-white-reverse
+                                btn-lg w-100" type="Submit">
                         Зарегистрироваться!
                         </button> 
                     </form>
